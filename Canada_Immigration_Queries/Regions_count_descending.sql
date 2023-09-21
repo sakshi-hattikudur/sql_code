@@ -4,7 +4,7 @@ select region,count(*) from can_imm.canada_data
 group by region
 order by count(*) desc;
 
--- This query shows that Western Asia is the region from where most immigrants are coming to Canada (country-wise)
+-- This query shows that Western Asia is the region from where most immigrants are coming to Canada (country wise)
 
 /*
 Western Asia	18
